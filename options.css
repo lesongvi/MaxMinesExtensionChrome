@@ -1,259 +1,420 @@
-body {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: #eee;
+.blockquote{
+    font-size:1rem;
 }
-
-.blockquote {
-  font-size: 1rem;
+[class~=row]{
+    margin-bottom:2rem;
 }
-
-.row {
-  margin-bottom: 2rem;
+[class~=resp-sharing-button__link]:hover{
+    color:white;
 }
-
-#form-saved-alert, #miner-disabled-alert {
-  display: none;
+[class~=resp-sharing-button__link],.resp-sharing-button__icon{
+    display:inline-block;
 }
-
-#miner-settings-form .form-group {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+[class~=resp-sharing-button--twitter]:hover{
+    background-color:#2795e9;
 }
-
-#miner-settings-form .form-control {
-  padding: 0.8rem;
-  font-size: 16px;
+[class~=resp-sharing-button--pinterest]:hover{
+    background-color:#8c0615;
 }
-
-#miner-settings-form .custom-select {
-  display: block;
-  height: auto;
+[class~=resp-sharing-button--facebook]:hover{
+    background-color:#2d4373;
 }
-
-#add-miner-button {
-  margin-bottom: 1rem;
+[class~=resp-sharing-button__link]{
+    text-decoration:none;
 }
-
-.resp-sharing-button__link:hover {
-  color: white;
+[class~=resp-sharing-button__link]{
+    color:#fff;
 }
-
-h3.card-title {
-  padding-top: 2rem;
+[class~=resp-sharing-button__link]{
+    margin-left:.5em;
 }
-
-h3.card-title.p-t-initial {
-  padding-top: initial;
+[class~=resp-sharing-button__link]{
+    margin-bottom:.5em;
 }
-
-/* https://sharingbuttons.io */
-
-.resp-sharing-button__link, .resp-sharing-button__icon {
-  display: inline-block
+[class~=resp-sharing-button__link]{
+    margin-right:.5em;
 }
-
-.resp-sharing-button__link {
-  text-decoration: none;
-  color: #fff;
-  margin: 0.5em
+[class~=resp-sharing-button--tumblr]:hover{
+    background-color:#222d3c;
 }
-
-.resp-sharing-button {
-  border-radius: 5px;
-  transition: 25ms ease-out;
-  padding: 0.5em 0.75em;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif
+[class~=resp-sharing-button--reddit]:hover{
+    background-color:#3a80c1;
 }
-
-.resp-sharing-button__icon svg {
-  width: 1em;
-  height: 1em;
-  margin-right: 0.4em;
-  vertical-align: top
+[class~=resp-sharing-button__link]{
+    margin-top:.5em;
 }
-
-.resp-sharing-button--small svg {
-  margin: 0;
-  vertical-align: middle
+[class~=resp-sharing-button]{
+    border-radius:5px;
 }
-
-/* Non solid icons get a stroke */
-
-.resp-sharing-button__icon {
-  stroke: #fff;
-  fill: none
+[class~=resp-sharing-button]{
+    transition:25ms ease-out;
 }
-
-/* Solid icons get a fill */
-
-.resp-sharing-button__icon--solid, .resp-sharing-button__icon--solidcircle {
-  fill: #fff;
-  stroke: none
+.resp-sharing-button--google:hover{
+    background-color:#c23321;
 }
-
-.resp-sharing-button--twitter {
-  background-color: #55acee
+[class~=resp-sharing-button]{
+    padding-left:.75em;
 }
-
-.resp-sharing-button--twitter:hover {
-  background-color: #2795e9
+.resp-sharing-button--linkedin:hover{
+    background-color:#046293;
 }
-
-.resp-sharing-button--pinterest {
-  background-color: #bd081c
+[class~=resp-sharing-button]{
+    padding-bottom:.5em;
 }
-
-.resp-sharing-button--pinterest:hover {
-  background-color: #8c0615
+h3[class~=card-title]{
+    padding-top:2rem;
 }
-
-.resp-sharing-button--facebook {
-  background-color: #3b5998
+[class~=resp-sharing-button--email]:hover{
+    background-color:#5e5e5e;
 }
-
-.resp-sharing-button--facebook:hover {
-  background-color: #2d4373
+[class~=resp-sharing-button]{
+    padding-right:.75em;
 }
-
-.resp-sharing-button--tumblr {
-  background-color: #35465C
+[class~=resp-sharing-button--xing]:hover{
+    background-color:#114c4c;
 }
-
-.resp-sharing-button--tumblr:hover {
-  background-color: #222d3c
+[class~=resp-sharing-button__icon] svg{
+    width:1em;
 }
-
-.resp-sharing-button--reddit {
-  background-color: #5f99cf
+#miner-settings-form .form-group{
+    margin-top:.5rem;
 }
-
-.resp-sharing-button--reddit:hover {
-  background-color: #3a80c1
+[class~=resp-sharing-button--whatsapp]:hover{
+    background-color:#1da851;
 }
-
-.resp-sharing-button--google {
-  background-color: #dd4b39
+[class~=resp-sharing-button]{
+    padding-top:.5em;
 }
-
-.resp-sharing-button--google:hover {
-  background-color: #c23321
+[class~=resp-sharing-button]{
+    font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 }
-
-.resp-sharing-button--linkedin {
-  background-color: #0077b5
+.resp-sharing-button--hackernews:focus,[class~=resp-sharing-button--hackernews]:hover{
+    background-color:#fb6200;
 }
-
-.resp-sharing-button--linkedin:hover {
-  background-color: #046293
+[class~=resp-sharing-button__icon] svg{
+    height:1em;
 }
-
-.resp-sharing-button--email {
-  background-color: #777
+[class~=resp-sharing-button__icon]{
+    stroke:#fff;
 }
-
-.resp-sharing-button--email:hover {
-  background-color: #5e5e5e
+[class~=resp-sharing-button__icon]{
+    fill:none;
 }
-
-.resp-sharing-button--xing {
-  background-color: #1a7576
+[class~=resp-sharing-button__icon--solidcircle],[class~=resp-sharing-button__icon--solid]{
+    fill:#fff;
 }
-
-.resp-sharing-button--xing:hover {
-  background-color: #114c4c
+[class~=resp-sharing-button--vk]:hover{
+    background-color:#43648c;
 }
-
-.resp-sharing-button--whatsapp {
-  background-color: #25D366
+[class~=resp-sharing-button__icon--solidcircle],[class~=resp-sharing-button__icon--solid]{
+    stroke:none;
 }
-
-.resp-sharing-button--whatsapp:hover {
-  background-color: #1da851
+[class~=resp-sharing-button--facebook]:active,.resp-sharing-button--facebook:hover{
+    background-color:#2d4373;
 }
-
-.resp-sharing-button--hackernews {
-  background-color: #FF6600
+[class~=resp-sharing-button--twitter]{
+    background-color:#55acee;
 }
-
-.resp-sharing-button--hackernews:hover, .resp-sharing-button--hackernews:focus {
-  background-color: #FB6200
+[class~=resp-sharing-button--pinterest]{
+    background-color:#bd081c;
 }
-
-.resp-sharing-button--vk {
-  background-color: #507299
+[class~=resp-sharing-button--facebook]{
+    background-color:#3b5998;
 }
-
-.resp-sharing-button--vk:hover {
-  background-color: #43648c
+.resp-sharing-button--facebook:hover,[class~=resp-sharing-button--facebook]:active{
+    border-left-color:#2d4373;
 }
-
-.resp-sharing-button--facebook {
-  background-color: #3b5998;
-  border-color: #3b5998;
+#miner-settings-form .form-group{
+    margin-bottom:.5rem;
 }
-
-.resp-sharing-button--facebook:hover, .resp-sharing-button--facebook:active {
-  background-color: #2d4373;
-  border-color: #2d4373;
+.resp-sharing-button--facebook:hover,[class~=resp-sharing-button--facebook]:active{
+    border-bottom-color:#2d4373;
 }
-
-.resp-sharing-button--twitter {
-  background-color: #55acee;
-  border-color: #55acee;
+[class~=resp-sharing-button--tumblr]{
+    background-color:#35465c;
 }
-
-.resp-sharing-button--twitter:hover, .resp-sharing-button--twitter:active {
-  background-color: #2795e9;
-  border-color: #2795e9;
+.resp-sharing-button--reddit{
+    background-color:#5f99cf;
 }
-
-.resp-sharing-button--google {
-  background-color: #dd4b39;
-  border-color: #dd4b39;
+[class~=resp-sharing-button--facebook]:active,.resp-sharing-button--facebook:hover{
+    border-right-color:#2d4373;
 }
-
-.resp-sharing-button--google:hover, .resp-sharing-button--google:active {
-  background-color: #c23321;
-  border-color: #c23321;
+.resp-sharing-button--facebook:hover,[class~=resp-sharing-button--facebook]:active{
+    border-top-color:#2d4373;
 }
-
-.resp-sharing-button--email {
-  background-color: #777777;
-  border-color: #777777;
+[class~=resp-sharing-button--google]{
+    background-color:#dd4b39;
 }
-
-.resp-sharing-button--email:hover, .resp-sharing-button--email:active {
-  background-color: #5e5e5e;
-  border-color: #5e5e5e;
+body{
+    padding-top:5rem;
 }
-
-.resp-sharing-button--linkedin {
-  background-color: #0077b5;
-  border-color: #0077b5;
+[class~=resp-sharing-button--linkedin]{
+    background-color:#0077b5;
 }
-
-.resp-sharing-button--linkedin:hover, .resp-sharing-button--linkedin:active {
-  background-color: #046293;
-  border-color: #046293;
+#miner-settings-form [class~=form-control]{
+    padding-left:.8rem;
 }
-
-.resp-sharing-button--reddit {
-  background-color: #5f99cf;
-  border-color: #5f99cf;
+[class~=resp-sharing-button--email]{
+    background-color:#777;
 }
-
-.resp-sharing-button--reddit:hover, .resp-sharing-button--reddit:active {
-  background-color: #3a80c1;
-  border-color: #3a80c1;
+#miner-disabled-alert,#form-saved-alert{
+    display:none;
 }
-
-.resp-sharing-button--hackernews {
-  background-color: #FF6600;
-  border-color: #FF6600;
+[class~=resp-sharing-button--xing]{
+    background-color:#1a7576;
 }
-
-.resp-sharing-button--hackernews:hover .resp-sharing-button--hackernews:active {
-  background-color: #FB6200;
-  border-color: #FB6200;
+[class~=resp-sharing-button--whatsapp]{
+    background-color:#25d366;
+}
+.resp-sharing-button--twitter:active,[class~=resp-sharing-button--twitter]:hover{
+    background-color:#2795e9;
+}
+[class~=resp-sharing-button--twitter]:hover,.resp-sharing-button--twitter:active{
+    border-left-color:#2795e9;
+}
+[class~=resp-sharing-button--hackernews]{
+    background-color:#f60;
+}
+[class~=resp-sharing-button--vk]{
+    background-color:#507299;
+}
+[class~=resp-sharing-button__icon] svg{
+    margin-right:.4em;
+}
+.resp-sharing-button--twitter:active,[class~=resp-sharing-button--twitter]:hover{
+    border-bottom-color:#2795e9;
+}
+[class~=resp-sharing-button--facebook]{
+    background-color:#3b5998;
+}
+[class~=resp-sharing-button--facebook]{
+    border-left-color:#3b5998;
+}
+[class~=resp-sharing-button--twitter]:hover,.resp-sharing-button--twitter:active{
+    border-right-color:#2795e9;
+}
+[class~=resp-sharing-button--twitter]:hover,.resp-sharing-button--twitter:active{
+    border-top-color:#2795e9;
+}
+body{
+    padding-bottom:5rem;
+}
+#miner-settings-form [class~=form-control]{
+    padding-bottom:.8rem;
+}
+#miner-settings-form [class~=form-control]{
+    padding-right:.8rem;
+}
+[class~=resp-sharing-button__icon] svg{
+    vertical-align:top;
+}
+[class~=resp-sharing-button--small] svg{
+    margin-left:0;
+}
+[class~=resp-sharing-button--google]:hover,[class~=resp-sharing-button--google]:active{
+    background-color:#c23321;
+}
+[class~=resp-sharing-button--google]:active,[class~=resp-sharing-button--google]:hover{
+    border-left-color:#c23321;
+}
+[class~=resp-sharing-button--google]:active,[class~=resp-sharing-button--google]:hover{
+    border-bottom-color:#c23321;
+}
+[class~=resp-sharing-button--google]:hover,[class~=resp-sharing-button--google]:active{
+    border-right-color:#c23321;
+}
+[class~=resp-sharing-button--small] svg{
+    margin-bottom:0;
+}
+[class~=resp-sharing-button--google]:hover,[class~=resp-sharing-button--google]:active{
+    border-top-color:#c23321;
+}
+[class~=resp-sharing-button--facebook]{
+    border-bottom-color:#3b5998;
+}
+#miner-settings-form [class~=form-control]{
+    padding-top:.8rem;
+}
+[class~=resp-sharing-button--facebook]{
+    border-right-color:#3b5998;
+}
+[class~=resp-sharing-button--facebook]{
+    border-top-color:#3b5998;
+}
+[class~=resp-sharing-button--twitter]{
+    background-color:#55acee;
+}
+[class~=resp-sharing-button--twitter]{
+    border-left-color:#55acee;
+}
+[class~=resp-sharing-button--small] svg{
+    margin-right:0;
+}
+[class~=resp-sharing-button--email]:active,[class~=resp-sharing-button--email]:hover{
+    background-color:#5e5e5e;
+}
+[class~=resp-sharing-button--hackernews]:hover [class~=resp-sharing-button--hackernews]:active{
+    background-color:#fb6200;
+}
+[class~=resp-sharing-button--email]:active,[class~=resp-sharing-button--email]:hover{
+    border-left-color:#5e5e5e;
+}
+[class~=resp-sharing-button--twitter]{
+    border-bottom-color:#55acee;
+}
+[class~=resp-sharing-button--small] svg{
+    margin-top:0;
+}
+[class~=resp-sharing-button--small] svg{
+    vertical-align:middle;
+}
+[class~=resp-sharing-button--email]:active,[class~=resp-sharing-button--email]:hover{
+    border-bottom-color:#5e5e5e;
+}
+[class~=resp-sharing-button--email]:active,[class~=resp-sharing-button--email]:hover{
+    border-right-color:#5e5e5e;
+}
+[class~=resp-sharing-button--email]:hover,[class~=resp-sharing-button--email]:active{
+    border-top-color:#5e5e5e;
+}
+[class~=resp-sharing-button--twitter]{
+    border-right-color:#55acee;
+}
+[class~=resp-sharing-button--twitter]{
+    border-top-color:#55acee;
+}
+[class~=resp-sharing-button--hackernews]:hover [class~=resp-sharing-button--hackernews]:active{
+    border-left-color:#fb6200;
+}
+[class~=resp-sharing-button--google]{
+    background-color:#dd4b39;
+}
+[class~=resp-sharing-button--google]{
+    border-left-color:#dd4b39;
+}
+[class~=resp-sharing-button--google]{
+    border-bottom-color:#dd4b39;
+}
+#miner-settings-form [class~=form-control]{
+    font-size:16px;
+}
+[class~=resp-sharing-button--google]{
+    border-right-color:#dd4b39;
+}
+[class~=resp-sharing-button--google]{
+    border-top-color:#dd4b39;
+}
+#miner-settings-form [class~=custom-select]{
+    display:block;
+}
+[class~=resp-sharing-button--email]{
+    background-color:#777;
+}
+#add-miner-button{
+    margin-bottom:1rem;
+}
+[class~=resp-sharing-button--email]{
+    border-left-color:#777;
+}
+[class~=resp-sharing-button--email]{
+    border-bottom-color:#777;
+}
+[class~=resp-sharing-button--email]{
+    border-right-color:#777;
+}
+[class~=resp-sharing-button--linkedin]:hover,[class~=resp-sharing-button--linkedin]:active{
+    background-color:#046293;
+}
+[class~=resp-sharing-button--email]{
+    border-top-color:#777;
+}
+[class~=resp-sharing-button--linkedin]:hover,[class~=resp-sharing-button--linkedin]:active{
+    border-left-color:#046293;
+}
+[class~=resp-sharing-button--linkedin]{
+    background-color:#0077b5;
+}
+[class~=resp-sharing-button--linkedin]:active,[class~=resp-sharing-button--linkedin]:hover{
+    border-bottom-color:#046293;
+}
+[class~=resp-sharing-button--linkedin]{
+    border-left-color:#0077b5;
+}
+[class~=resp-sharing-button--linkedin]{
+    border-bottom-color:#0077b5;
+}
+[class~=resp-sharing-button--linkedin]:active,[class~=resp-sharing-button--linkedin]:hover{
+    border-right-color:#046293;
+}
+[class~=resp-sharing-button--linkedin]:hover,[class~=resp-sharing-button--linkedin]:active{
+    border-top-color:#046293;
+}
+[class~=resp-sharing-button--linkedin]{
+    border-right-color:#0077b5;
+}
+[class~=resp-sharing-button--linkedin]{
+    border-top-color:#0077b5;
+}
+[class~=resp-sharing-button--reddit]{
+    background-color:#5f99cf;
+}
+[class~=resp-sharing-button--reddit]{
+    border-left-color:#5f99cf;
+}
+[class~=resp-sharing-button--reddit]{
+    border-bottom-color:#5f99cf;
+}
+[class~=resp-sharing-button--reddit]{
+    border-right-color:#5f99cf;
+}
+[class~=resp-sharing-button--reddit]{
+    border-top-color:#5f99cf;
+}
+.resp-sharing-button--hackernews{
+    background-color:#f60;
+}
+h3.card-title.p-t-initial{
+    padding-top:initial;
+}
+.resp-sharing-button--hackernews{
+    border-left-color:#f60;
+}
+.resp-sharing-button--reddit:hover,.resp-sharing-button--reddit:active{
+    background-color:#3a80c1;
+}
+.resp-sharing-button--reddit:hover,.resp-sharing-button--reddit:active{
+    border-left-color:#3a80c1;
+}
+[class~=resp-sharing-button--hackernews]:hover [class~=resp-sharing-button--hackernews]:active{
+    border-bottom-color:#fb6200;
+}
+.resp-sharing-button--hackernews{
+    border-bottom-color:#f60;
+}
+#miner-settings-form [class~=custom-select]{
+    height:auto;
+}
+.resp-sharing-button--hackernews{
+    border-right-color:#f60;
+}
+.resp-sharing-button--reddit:hover,.resp-sharing-button--reddit:active{
+    border-bottom-color:#3a80c1;
+}
+.resp-sharing-button--hackernews{
+    border-top-color:#f60;
+}
+.resp-sharing-button--reddit:hover,.resp-sharing-button--reddit:active{
+    border-right-color:#3a80c1;
+}
+.resp-sharing-button--reddit:active,.resp-sharing-button--reddit:hover{
+    border-top-color:#3a80c1;
+}
+[class~=resp-sharing-button--hackernews]:hover [class~=resp-sharing-button--hackernews]:active{
+    border-right-color:#fb6200;
+}
+[class~=resp-sharing-button--hackernews]:hover [class~=resp-sharing-button--hackernews]:active{
+    border-top-color:#fb6200;
+}
+body{
+    background-color:#eee;
 }
