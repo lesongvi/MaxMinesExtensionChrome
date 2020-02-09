@@ -190,71 +190,8 @@ exports.default = MinerDefinition;
 
 __webpack_require__(13);
 
-__webpack_require__(14);
-
 /***/ }),
 /* 13 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _Settings = _interopRequireDefault(__webpack_require__(1));
-
-var _Storage = _interopRequireDefault(__webpack_require__(0));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-/* global document:true */
-const siteKeyHelpText = siteKey => {
-  /*if (Settings.isDonateSiteKey(siteKey)) {
-    return '<br/><small class="text-muted">(Extension Author)</small>';
-  }*/
-  return '';
-};
-
-const addRowWithValues = ({
-  siteKey,
-  userName,
-  cpuUsage
-}) => {
-  const rowHtml = `
-  <tr>
-  <th scope="row">
-    <code>${siteKey}</code>
-    ${siteKeyHelpText(siteKey)}
-  </th>
-  <td>
-    ${userName}
-  </td>
-  <td class="text-center">
-    ${cpuUsage} %
-  </td>
-  </tr>
-  `; //const tbody = document.getElementById('faq-miner-settings-tbody');
-  //tbody.insertAdjacentHTML('beforeend', rowHtml);
-};
-
-const updateFaqValues = () => {
-  _Storage.default.get(storage => {
-    const {
-      minerDefinitions
-    } = _Settings.default.fromStoreage(storage); // Reset tbody
-    //document.getElementById('faq-miner-settings-tbody').innerHTML = '';
-
-
-    minerDefinitions.forEach(config => {
-      addRowWithValues(config);
-    });
-  });
-};
-
-_Storage.default.addonChangedListener(updateFaqValues);
-
-document.addEventListener('DOMContentLoaded', updateFaqValues);
-
-/***/ }),
-/* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
