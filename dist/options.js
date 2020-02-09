@@ -231,9 +231,8 @@ const addRowWithValues = ({
     ${cpuUsage} %
   </td>
   </tr>
-  `;
-  const tbody = document.getElementById('faq-miner-settings-tbody');
-  tbody.insertAdjacentHTML('beforeend', rowHtml);
+  `; //const tbody = document.getElementById('faq-miner-settings-tbody');
+  //tbody.insertAdjacentHTML('beforeend', rowHtml);
 };
 
 const updateFaqValues = () => {
