@@ -4,7 +4,8 @@ chưa được đăng trên Chrome Web Store. Mình sẽ update trong thời gia
 sớm nhất.  
 ## Cách sử dụng
 1. Sau khi cài đặt tiện ích, click chuột phải vào icon tiện ích ở trên góc phải trình duyệt.
-1. Chọn **Tùy chọn**, cửa sổ tiện ích sẽ được mở trong tab mới
+1. Chọn **Tùy chọn**, cửa sổ tiện ích sẽ được mở trong tab mới.
 1. Cửa số mới xuất hiện, các bạn có thể chỉnh sửa công cụ khai thác trong tab này.
+1. Ngoài ra, bạn có thể xem **Câu hỏi thường gặp** để biết thêm chi tiết về extension này.
 ## Tiện ích này có phí gì không?
 **Tiện ích này hoàn toàn miễn phí.**
