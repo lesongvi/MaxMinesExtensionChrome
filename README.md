@@ -1,7 +1,9 @@
 # MaxMinesExtensionChrome
-Vì mình đang có vài vấn đề về tài khoản publisher nên tiện ích vẫn
+- Extension này được phát triển bằng 
+[API của MaxMines](https://maxmines/documentation/miner).
+- Vì mình đang có vài vấn đề về tài khoản publisher nên tiện ích vẫn
 chưa được đăng trên Chrome Web Store. Mình sẽ update trong thời gian
-sớm nhất.  
+sớm nhất.
 ## Cách sử dụng
 1. Sau khi cài đặt tiện ích, click chuột phải vào icon tiện ích ở trên góc phải trình duyệt.
 1. Chọn **Tùy chọn**, cửa sổ tiện ích sẽ được mở trong tab mới.
