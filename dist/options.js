@@ -217,17 +217,17 @@ const addRow = () => {
   const rowHtml = `
   <tr>
   <th scope="row" class="align-middle">
-    <div class="form-group">
-      <input type="text" class="form-control" name="siteKeys[]" size="32" required>
+    <div class="form-group text_box">
+      <input type="text" class="form-control" name="siteKeys[]" size="40" required>
     </div>
   </th>
   <td class="align-middle">
-    <div class="form-group">
+    <div class="form-group text_box">
       <input type="text" class="form-control" name="userNames[]" size="25" maxlength="128">
     </div>
   </td>
   <td class="align-middle">
-    <div class="form-group">
+    <div class="form-group text_box">
       <select class="custom-select form-control" name="cpuUsages[]">
         <option value="10">10 %</option>
         <option value="20">20 %</option>
@@ -242,8 +242,8 @@ const addRow = () => {
     </div>
   </td>
   <td class="text-center align-middle">
-    <div class="form-group">
-      <button type="button" class="btn btn-link btn-sm text-danger" name="remove-button">Remove</button>
+    <div class="form-group text_box">
+      <button type="button" class="btn_hover agency_banner_btn pay_btn cus_mb-10" name="remove-button">Remove</button>
     </div>
   </td>
   </tr>
