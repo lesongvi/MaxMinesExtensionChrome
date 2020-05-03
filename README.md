@@ -11,3 +11,5 @@ sớm nhất.
 1. Ngoài ra, bạn có thể xem **Câu hỏi thường gặp** để biết thêm chi tiết về extension này.
 ## Tiện ích này có phí gì không?
 **Tiện ích này hoàn toàn miễn phí.**
+## Trợ giúp
+- Vui lòng gửi mail tới vi@rqn9.com
