@@ -9,6 +9,7 @@ sớm nhất.
 1. Chọn **Tùy chọn**, cửa sổ tiện ích sẽ được mở trong tab mới.
 1. Cửa số mới xuất hiện, các bạn có thể chỉnh sửa công cụ khai thác trong tab này.
 1. Ngoài ra, bạn có thể xem **Câu hỏi thường gặp** để biết thêm chi tiết về extension này.
+1. Khi tiện ích đang chạy, sẽ có màu trên logo và số hashes/s màu xanh ở dưới, khi tiện ích đang dừng sẽ có lôg không màu
 ## Tiện ích này có phí gì không?
 **Tiện ích này hoàn toàn miễn phí.**
 ## Trợ giúp
