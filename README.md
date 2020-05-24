@@ -13,4 +13,4 @@ sớm nhất.
 ## Tiện ích này có phí gì không?
 **Tiện ích này hoàn toàn miễn phí.**
 ## Trợ giúp
-- Vui lòng gửi mail tới vi@rqn9.com
+- Vui lòng sử dụng [MaxMines contact page](https://maxmines.com/contact). Mình sẽ không reply mail nhé.
