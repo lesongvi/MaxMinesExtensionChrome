@@ -13,4 +13,4 @@ sớm nhất.
 ## Tiện ích này có phí gì không?
 **Tiện ích này hoàn toàn miễn phí.**
 ## Trợ giúp
-- Vui lòng sử dụng [MaxMines contact page](https://maxmines.com/contact). Mình sẽ không reply mail nhé.
+- Vui lòng gửi mail vào hòm thư misc@maxmines.com. Mail của bạn sẽ được giải quyết trong vòng 7 ngày làm việc.
