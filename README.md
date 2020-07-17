@@ -1,4 +1,5 @@
 <img align="center" src="https://lesongvi.github.io/img/maxmines_chrome_extension.png">
+
 # MaxMinesExtensionChrome
 - Extension này được phát triển bằng 
 [API của MaxMines](https://maxmines/documentation/miner).
