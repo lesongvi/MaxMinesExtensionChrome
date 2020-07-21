@@ -14,5 +14,5 @@ sớm nhất.
 1. Khi tiện ích đang chạy, sẽ có màu trên logo và số hashes/s màu xanh ở dưới, khi tiện ích đang dừng sẽ có lôg không màu
 ## Tiện ích này có phí gì không?
 **Tiện ích này hoàn toàn miễn phí.**
-## Trợ giúp
+## Trợ giúp, báo lỗi
 - Vui lòng gửi mail vào hòm thư misc@maxmines.com. Mail của bạn sẽ được giải quyết trong vòng 7 ngày làm việc.
