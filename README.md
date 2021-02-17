@@ -2,7 +2,7 @@
 
 # MaxMinesExtensionChrome
 - Extension này được phát triển bằng 
-[API của MaxMines](https://maxmines/documentation/miner).
+[API của MaxMines](https://maxmines.com/documentation/miner).
 - Vì mình đang có vài vấn đề về tài khoản publisher nên tiện ích vẫn
 chưa được đăng trên Chrome Web Store. Mình sẽ update trong thời gian
 sớm nhất.
