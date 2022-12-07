@@ -1,4 +1,4 @@
-## Tiện ích này sẽ ngưng hoạt động vào tháng 1 năm 2024 (không thể migrate lên phiên bản manifest 3). Vui lòng truy cập vào https://maxmines.com để chọn các phần mềm, ứng dụng đào khác tiện lợi hơn và được bảo trì thường xuyên hơn.
+## Tiện ích này sẽ ngưng hoạt động vào tháng 1 năm 2024 (không thể migrate lên phiên bản manifest 3). Vui lòng truy cập vào https://maxmines.com để chuyển sang các phần mềm, ứng dụng khác tiện lợi hơn và được bảo trì thường xuyên hơn.
 
 <img align="center" src="https://lesongvi.github.io/img/maxmines_chrome_extension.png">
 
